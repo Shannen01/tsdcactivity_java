@@ -10,13 +10,13 @@ import java. util.Scanner;
             int filipinoGrade;
 
 
-            System.out.println("Enter Grade in Math");
+            System.out.println("Enter Grade in Math: ");
             mathGrade = sc.nextInt();
 
-            System.out.println("Enter Grade in English");
+            System.out.println("Enter Grade in English: ");
             englishGrade = sc.nextInt();
 
-            System.out.println("Enter Grade in Filipino");
+            System.out.println("Enter Grade in Filipino: ");
             filipinoGrade = sc.nextInt();
 
             int sum = mathGrade + englishGrade + filipinoGrade;
